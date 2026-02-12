@@ -58,3 +58,10 @@ section {
 	background: white;
 	flex-direction: column;
 }
+
+footer p {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #f4e6d4;
+    text-shadow: 3px 3px 5px black;
+}
