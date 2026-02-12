@@ -52,3 +52,9 @@ main p {
     color: #f4e6d4;
     text-shadow: 3px 3px 5px black;
 }
+
+section {
+    border: 5px solid red;
+	background: white;
+	flex-direction: column;
+}
