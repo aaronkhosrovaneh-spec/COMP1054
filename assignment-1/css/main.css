@@ -18,3 +18,12 @@ h1 {
     color: #c9a227;
     text-shadow: 4px 4px 10px black;
 }
+
+h2 {
+    font-size: 60px;
+    font-family: "Montserrat";
+    letter-spacing: 8px;
+    text-align: center;
+    color: #c9a227;
+    text-shadow: 4px 4px 10px black;
+}
