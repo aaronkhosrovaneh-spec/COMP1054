@@ -27,3 +27,11 @@ h2 {
     color: #c9a227;
     text-shadow: 4px 4px 10px black;
 }
+
+blockquote {
+    border: 5px solid red;
+	background: white;
+	flex-direction: column;
+    display: inline-block;
+    margin-left: 450px;
+}
