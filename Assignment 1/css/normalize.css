@@ -1,9 +1,0 @@
-@charset "UTF-8";
-
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
-body, h1, h2, section p {
-    margin: 0;
-}
