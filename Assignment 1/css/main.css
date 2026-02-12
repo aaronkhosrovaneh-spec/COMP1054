@@ -35,3 +35,11 @@ blockquote {
     display: inline-block;
     margin-left: 450px;
 }
+
+blockquote p {
+    font-family: "Oswald";
+    letter-spacing: 8px;
+    color: #f4e6d4;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
