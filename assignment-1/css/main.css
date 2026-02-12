@@ -43,3 +43,12 @@ blockquote p {
     text-shadow: 3px 3px 5px black;
     text-align: center;
 }
+
+main p {
+    font-family: "Oswald";
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #f4e6d4;
+    text-shadow: 3px 3px 5px black;
+}
