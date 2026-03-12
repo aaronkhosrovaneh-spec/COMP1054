@@ -30,3 +30,7 @@ p:first-of-type {
     text-align: center;
     margin-right: 100px;
 }
+
+p strong {
+    color: orange;
+}
