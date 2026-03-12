@@ -3,3 +3,7 @@ h1 {
     color: orange;
     margin-left: 15px;
 }
+
+article {
+    column-count: 2;
+}
