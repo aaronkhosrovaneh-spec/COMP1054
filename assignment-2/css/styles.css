@@ -34,3 +34,8 @@ p:first-of-type {
 p strong {
     color: orange;
 }
+
+p {
+    margin-right: 50px;
+    margin-top: 5px;
+}
