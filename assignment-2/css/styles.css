@@ -44,3 +44,7 @@ footer {
     margin-top: 50px;
     margin-right: 925px;
 }
+
+footer p small {
+    font-size: 15px;
+}
