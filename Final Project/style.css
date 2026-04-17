@@ -46,3 +46,10 @@ a:focus {
 .skip-link:focus {
   left: 10px;
 }
+
+/* 3. LAYOUT CONTAINER */
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
