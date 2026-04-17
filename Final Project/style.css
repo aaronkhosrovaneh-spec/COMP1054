@@ -30,3 +30,19 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
+
+/* 2. ACCESSIBILITY (SKIP LINK) */
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 10px;
+  background: black;
+  color: white;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  left: 10px;
+}
