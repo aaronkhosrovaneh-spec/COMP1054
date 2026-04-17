@@ -85,3 +85,30 @@ header p {
   color: white;
   font-weight: bold;
 }
+
+/* 5. NAVIGATION (MOBILE FIRST)
+   Stack vertically on mobile */
+
+nav {
+  background: white;
+  border-bottom: 1px solid white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background: white;
+}
