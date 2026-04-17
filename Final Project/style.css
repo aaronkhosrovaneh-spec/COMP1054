@@ -112,3 +112,35 @@ nav a {
 nav a:hover {
   background: white;
 }
+
+/* 6. MAIN CONTENT LAYOUT (MOBILE) */
+
+main {
+  padding: 2rem 0;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+section {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.25rem;
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid blue;
+  padding-left: 1rem;
+  margin-left: 0;
+  color: black;
+  background: white;
+}
