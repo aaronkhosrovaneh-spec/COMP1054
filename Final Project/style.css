@@ -144,3 +144,33 @@ blockquote {
   color: black;
   background: white;
 }
+
+/* 7. ASIDES (PROFILE + STYLES) */
+
+aside {
+  margin: 2rem 0;
+}
+
+aside .container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+/* Profile list styling */
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid white;
+}
+
+/* Featured styles list */
+.features li {
+  margin-bottom: 0.75rem;
+}
