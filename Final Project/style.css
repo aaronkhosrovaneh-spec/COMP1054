@@ -191,3 +191,43 @@ footer ul {
   list-style: none;
   padding: 0;
 }
+
+/* 9. RESPONSIVE DESIGN (TABLET / DESKTOP)
+   Breakpoint: 768px */
+
+@media (min-width: 768px) {
+
+  /* NAV becomes horizontal */
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav a {
+    padding: 0.75rem 1rem;
+  }
+
+  /* Two-column layout using grid */
+  main .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  /* Articles stay full width in main column */
+  article {
+    grid-column: 1;
+  }
+
+  /* ASIDES go to right column */
+  .profile,
+  #styles {
+    grid-column: 2;
+  }
+
+  /* Better spacing for desktop */
+  section {
+    padding: 2rem;
+  }
+}
