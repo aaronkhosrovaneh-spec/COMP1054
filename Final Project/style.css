@@ -53,3 +53,35 @@ a:focus {
   width: min(1100px, 92%);
   margin: 0 auto;
 }
+
+/* 4. HEADER */
+
+header {
+  background: linear-gradient(135deg, blue, black);
+  color: white;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header h2 {
+  margin-top: 0.5rem;
+  font-weight: normal;
+}
+
+header p {
+  opacity: 0.9;
+}
+
+/* GitHub star button */
+.link-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bold;
+}
